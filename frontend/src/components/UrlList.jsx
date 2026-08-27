@@ -18,7 +18,7 @@ import { useState } from "react";
 import axios from "axios";
 
 // Base URL used to build the DELETE request
-const API_BASE = "http://localhost:5000/api/urls";
+const API_BASE = `${import.meta.env.VITE_API_URL}/api/urls`;
 
 // Receives the urls array and the onUrlDeleted callback from App.jsx
 function UrlList({ urls, onUrlDeleted }) {

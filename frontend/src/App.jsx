@@ -3,7 +3,7 @@ import axios from "axios";
 import UrlForm from "./components/UrlForm";
 import UrlList from "./components/UrlList";
 
-const API_BASE = "http://localhost:5000/api/urls";
+const API_BASE = `${import.meta.env.VITE_API_URL}/api/urls`;
 
 function App() {
   const [urls, setUrls] = useState([]);
@@ -54,7 +54,7 @@ function App() {
         <UrlList urls={urls} onUrlDeleted={handleUrlDeleted} />
       )}
 
-      <footer>Made with IBM Bob</footer>
+    <footer>© 2026 Rachit Kumar Singh. All rights reserved.</footer>
     </div>
   );
 }
