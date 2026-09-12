@@ -1,4 +1,4 @@
-# 🔗 MERN Stack URL Shortener
+# 🔗 URLShortener & Link Management System
 
 <p align="center">
   <img src="./1.png" alt="URLShortener & Link Management System" width="900">
@@ -182,10 +182,9 @@ Response
 }
 ```
 
----
-<div align="center">
-
 ## 🔄 Application Workflow
+
+<div align="center">
 
 <pre>
 User
@@ -215,7 +214,11 @@ Return Short URL
 Display to User
 </pre>
 
+</div>
+
 ### Redirect Flow
+
+<div align="center">
 
 <pre>
 User Opens Short URL
@@ -234,9 +237,6 @@ Redirect to Original URL
 </pre>
 
 </div>
-
----
-
 ## 🧩 Key Technologies
 
 | Technology | Purpose |
