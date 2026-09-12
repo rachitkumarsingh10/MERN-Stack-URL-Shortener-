@@ -1,7 +1,7 @@
 # 🔗 MERN Stack URL Shortener
 
 <p align="center">
-  <img src="./1.png" alt="MERN Stack URL Shortener" width="900">
+  <img src="./1.png" alt="URLShortener & Link Management System" width="900">
 </p>
 
 A simple and responsive **URL Shortener** built using the **MERN Stack** (MongoDB, Express.js, React.js, and Node.js). The application allows users to shorten long URLs, track click counts, manage links, and instantly redirect users to the original destination.
@@ -183,10 +183,11 @@ Response
 ```
 
 ---
+<div align="center">
 
 ## 🔄 Application Workflow
 
-```text
+<pre>
 User
  │
  ▼
@@ -212,11 +213,11 @@ Return Short URL
  │
  ▼
 Display to User
-```
+</pre>
 
 ### Redirect Flow
 
-```text
+<pre>
 User Opens Short URL
         │
         ▼
@@ -230,7 +231,9 @@ Increase Click Count
         │
         ▼
 Redirect to Original URL
-```
+</pre>
+
+</div>
 
 ---
 
